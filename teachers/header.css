@@ -1,0 +1,21 @@
+.logo{
+    height:5rem;
+}
+.creditCards{
+    width:350px;
+}
+#logout_btn{
+    cursor: pointer;
+}
+#navbarResponsive {
+display: none;
+}
+
+#navbarResponsive.show {
+display: block;
+}
+@media (max-width: 992px) { 
+#navbarResponsive {
+    display: none;
+}
+}
