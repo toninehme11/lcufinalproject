@@ -1,0 +1,22 @@
+home page:
+subjects of learnings
+
+
+contact page form:
+fullname 
+email
+phone num
+how can we assist?
+submit 
+our phone number
+
+login-register for teachers:
+5eda men heydak l website
+
+
+blue:#03144f
+lightBlue:#00eadf
+purple:#8a35e5
+pink:#ea3a8f
+
+ostaz.com

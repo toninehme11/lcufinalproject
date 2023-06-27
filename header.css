@@ -1,0 +1,45 @@
+.logo{
+    height:5rem;
+}
+.creditCards{
+    width:350px;
+}
+#logout_btn{
+    cursor: pointer;
+}
+#navbarResponsive {
+display: none;
+}
+
+#navbarResponsive.show {
+display: block;
+}
+@media (max-width: 992px) { 
+#navbarResponsive {
+    display: none;
+}
+}
+#logout_btn{
+    cursor: pointer;
+}
+.nav-link {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #01e0d8;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    visibility: visible;
+    width: 100%;
+}

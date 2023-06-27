@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+body{
+  overflow-x: hidden;
+  margin-top: 3.5rem;
+}
+
+.carousel-item {
+    height: 90vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .carousel-caption {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+    display: flex!important;
+    position: absolute;
+    right: 15%;
+    height: 17rem;
+    bottom: 35%!important;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-caption h1{
+  font-size: 4.5rem;
+}
+.carousel-caption h5{
+  font-size: 3.5rem;
+}
+@media screen and (max-width: 800px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body{
+    overflow-x: hidden;
+    margin-top: 3.5rem;
+  }
+
+  .carousel-item {
+    height: 30vh;
+    min-height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .carousel-caption {
+    display: flex!important;
+    position: absolute;
+    right: 15%;
+    height: 5rem;
+    top: 80px;
+    left: 15%;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+  .carousel-caption h1{
+    font-size: 2rem;
+  }
+  .carousel-caption h5{
+    font-size: 1rem;
+  }
+  .pricing-title{
+    margin-top:80px;
+  }
+}
+  .card-body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .logo-color{
+    color: #031140;
+  }
+
+  .nav-bar-bar:hover{
+    color:#031140;
+  }
+
+  .nav-link{
+    cursor: pointer;
+  }
+  
+  .butt{
+    width: 90%;
+    height: 3rem;
+    text-decoration: none!important;
+    display: flex; 
+    justify-content:center;
+    background-color: #5973bb;
+    color: white;
+    border-radius:50px;
+    font-size:16px;
+    border:1px solid #fff;
+    margin-top:5%;
+    margin-bottom:3%;
+    align-items: center;
+    transition: all 0.3s ease-in;
+  }
+  
+  .butt:hover{
+    transition: all 0.3s ease-out;
+    border:1px solid #fff;
+    background-color: white;
+    color: #031140;
+    font-size:17px;
+  }
+  
+  .counter-wrapper{
+    position: relative;
+    height: 250px;
+  }
+  
+  .counter-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .counter-learn{
+    display: flex;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('./img/img4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .counter-wrapper .counter-learn .row{
+    color: white;
+    text-align: center;
+  }
+  
+  .card{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    height: 200px;
+    transition: all 0.3s;
+  }
+
+  .card:hover {
+    transition: all 0.3s;
+    transform: scale(1.1);
+  }
+
+  
+  .card h1{
+    width: 45px;
+    color: #01e0d8;
+    position: relative;
+    top: -25px;
+  }
+  
+  .container .step-container{
+    height: 14rem;
+  }
+
+  .content-pricing .btn-pricing{
+    margin-top: 1rem;
+    border: 1px solid #01e0d8;
+    border-radius: 50px;
+    color:#031140;
+    padding: 10px 24px; 
+    transition: all 0.5s ease-in;
+  }
+  .content-pricing .btn-pricing:hover{
+    transition: all 0.5s ease-out;
+    color: white;
+    background-color: #0099a8;
+    border: 1px solid #01e0d8;
+    border-radius: 50px;
+    padding: 10px 24px;
+  }
+
+  .creditCards{
+    width:350px;
+}
