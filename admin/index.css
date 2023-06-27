@@ -1,0 +1,91 @@
+/* index.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* DataTable Styles */
+
+.dataTables_wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.table th {
+  color: #f8f8f8!important;
+  background-color: #333;
+  padding: 10px;
+}
+
+.table td {
+  background-color: #fff;
+  color: #666;
+  padding: 10px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Button Styles */
+
+.updateBtn, .deleteBtn, .insertBtn {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.updateBtn {
+  background-color: #4CAF50; /* Green */
+}
+
+.deleteBtn {
+  background-color: #f44336; /* Red */
+}
+
+.insertBtn {
+  background-color: #008CBA; /* Blue */
+}
+
+/* Modal Styles */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

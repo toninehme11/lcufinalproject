@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.spacetotop{
+  position: relative !important;
+  padding-top: 20px !important;
+  
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px;
+  background-image: url(../img/create_tutor.jpg);
+  background-repeat: repeat;
+  background-size: 1750px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  background: linear-gradient(135deg, #031140 20%, #0099a8 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.radio_buttons1 .radio{
+  top: 5px!important;
+  left: 0!important;
+}
+
+.radio_buttons2 .radio{
+  top: 5px!important;
+  right: 4rem!important;
+}
+
+.container{
+  max-width: 800px;
+  background: #fff;
+  width: 800px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 10px 10px 10px 10px;
+}
+.wrapper input {
+  border-bottom: 1px solid #031140;
+}
+
+.wrapper label{
+  color:#031140;
+}
+.err-msg{
+  color: red;
+}
+
+.container form{
+  padding: 30px 0 0 0;
+}
+.container form .form-row{
+  display: flex;
+  margin: 32px 0;
+}
+form .form-row .input-data{
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+form .form-row .textarea{
+  height: 70px;
+}
+
+.textarea textarea{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+
+
+.login-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+ margin-left: 20px;
+}
+input {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid #031140;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.select-topic{
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #495057;
+  margin: 1rem;
+}
+
+.cv-note {
+  text-align: right;
+  font-size:small;
+  color:#031140;
+  padding-right:10px
+}
+
+.header,
+.content {
+  width: 20rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.submit-btn .input-data{
+  overflow: hidden;
+  height: 45px!important;
+  width: 25%!important;
+  border-radius: 50px !important;
+}
+.submit-btn .input-data .inner{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: -webkit-linear-gradient(right,  #031140, #0099a8, #031140, #0099a8);
+  transition: all 0.4s;
+}
+.submit-btn .input-data:hover .inner{
+  left: 0;
+}
+.submit-btn .input-data input{
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.list {
+  padding: .5rem 1rem !important;
+  margin: .5rem .5rem 2rem .5rem !important;  
+
+  border-left: #00eadf 6px solid !important;
+}
+
+.list__item {
+  margin: 0 0 .5rem 0 !important;
+  padding: 0 !important;
+  
+}
+
+.label--radio {
+  position: relative !important;
+  padding-left: 25% !important;
+  margin: .5rem !important;
+  
+  font-family: Arial, sans-serif !important;
+  line-height: 135% !important;
+  cursor: pointer !important;
+}
+
+.radio {
+  position: relative !important;
+  margin: 0rem 1rem -1rem -3rem  !important;
+  cursor: pointer !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: rem(3) ;
+  z-index: 1 !important;
+  width: rem(20);
+  height: rem(12);
+  background: #00eadf !important;
+  border-radius: 50% !important;
+}
+
+  ul {
+list-style: none;;
+  }
