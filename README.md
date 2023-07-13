@@ -3,5 +3,5 @@
  learniverse is a new way of connection between students and teachers willing to teach students in private
 
  to access admin 
- username: toninehme@gmail.comm
+ username: toninehme@gmail.com
  pass: 123456789
